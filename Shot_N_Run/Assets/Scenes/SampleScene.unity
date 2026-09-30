@@ -473,6 +473,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulse Pass1
       objectReference: {fileID: 0}
+    - target: {fileID: 2186675265164993100, guid: 22ee1c12a5894e749abd273f289bafa8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4c479e17a020104294ae3f44abbeebf, type: 2}
+    - target: {fileID: 7111653995965282520, guid: 22ee1c12a5894e749abd273f289bafa8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4c479e17a020104294ae3f44abbeebf, type: 2}
+    - target: {fileID: 8771444544857134269, guid: 22ee1c12a5894e749abd273f289bafa8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4c479e17a020104294ae3f44abbeebf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -481,6 +496,24 @@ PrefabInstance:
 --- !u!4 &470857717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 22ee1c12a5894e749abd273f289bafa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 470857716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &470857718 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7111653995965282520, guid: 22ee1c12a5894e749abd273f289bafa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 470857716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &470857719 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8771444544857134269, guid: 22ee1c12a5894e749abd273f289bafa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 470857716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &470857720 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2186675265164993100, guid: 22ee1c12a5894e749abd273f289bafa8,
     type: 3}
   m_PrefabInstance: {fileID: 470857716}
   m_PrefabAsset: {fileID: 0}
@@ -1747,6 +1780,13 @@ MonoBehaviour:
   reloadKey: 324
   player_orientation: {fileID: 1349211735}
   player_camera: {fileID: 330585546}
+  buttons:
+  - {fileID: 470857720}
+  - {fileID: 470857719}
+  - {fileID: 470857718}
+  chargedMat: {fileID: 2100000, guid: 43b5f1320dfcc6e4988004a8f5957b76, type: 2}
+  unchargedMat: {fileID: 2100000, guid: b4c479e17a020104294ae3f44abbeebf, type: 2}
+  superchargeMat: {fileID: 2100000, guid: 77bd09ba1620fb04992094b525332579, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
